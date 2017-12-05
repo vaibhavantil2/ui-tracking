@@ -1,5 +1,5 @@
 {
-  "name": "merlin-tracking",
+  "name": "%40bbeachbody%2fui-tracking",
   "version": "1.0.0",
   "description": "Node module for Analytics tracking",
   "main": "index.js",
