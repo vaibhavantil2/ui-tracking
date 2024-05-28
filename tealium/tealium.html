@@ -4,6 +4,20 @@
     <link type="text/css" rel="stylesheet" href="//code.jquery.com/qunit/qunit-1.14.0.css" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://analytics.tiktok.com/i18n/pixel/sdk.js"></script> /* <===  */ 
+    <!-- Pinterest Tag -->
+    <script>
+        !function(e){if(!window.pintrk){window.pintrk=function(){window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+        n=window.pintrk;n.queue=[],n.version="3.0";var
+        t=document.createElement("script");t.async=!0,t.src=e;var
+        r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r)}};
+        pintrk('load', 'YOUR_TAG_ID_HERE', {em: '<user_email_address>'});
+        pintrk('page');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none;" alt="" src="https://ct.pinterest.com/v3/?event=init&tid=YOUR_TAG_ID_HERE&pd[em]=<hashed_email_address>&noscript=1" />
+    </noscript>
+    <!-- End Pinterest Tag -->
+
     <link type="text/css" rel="stylesheet" href="/css/global.css"/>
     <link type="text/css" rel="stylesheet" href="/css/modules.css"/>
     <link type="text/css" rel="stylesheet" href="/css/themes.css"/>
